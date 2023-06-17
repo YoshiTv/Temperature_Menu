@@ -1,8 +1,6 @@
 ESX = exports["es_extended"]:getSharedObject()
-local coordinategoto = nil
-local noclip = false
 
-RegisterKeyMapping("temperature", "Admin Menu Open", "keyboard", "F5")
+RegisterKeyMapping("temperature", "Open Menu", "keyboard", "F5")
 
 RegisterCommand("temperature", function()
     lib.registerContext({
